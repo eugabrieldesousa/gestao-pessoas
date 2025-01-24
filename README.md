@@ -33,11 +33,8 @@ Um sistema CRUD simples para gestão de pessoas via linha de comando, implementa
    javac *.java
 Execute o programa:
 
-bash
-Copy
-java Main
 Estrutura do Projeto
-Copy
+
 📂 SistemaGestaoPessoas/
 ├── Pessoa.java          # Classe abstrata base
 ├── Funcionario.java     # Implementação para funcionários
@@ -46,7 +43,7 @@ Copy
 └── Main.java            # Interface CLI e menu
 Exemplos de Uso
 Cadastrar Funcionário
-Copy
+
 === Sistema de Gestão de Pessoas ===
 1. Cadastrar Pessoa
 2. Listar Pessoas
@@ -63,11 +60,11 @@ Nome: João Silva
 Idade: 35
 Cargo: Desenvolvedor
 Listar Pessoas
-Copy
+
 ID: 1 | Nome: João Silva | Idade: 35 | Cargo: Desenvolvedor
 ID: 2 | Nome: Maria Souza | Idade: 28 | Telefone: (11) 9999-8888
 Atualizar Registro
-Copy
+
 Digite o ID da pessoa para atualizar: 2
 Novo nome: Maria Oliveira
 Nova idade: 29
@@ -95,8 +92,6 @@ Abra um Pull Request
 
 Créditos
 Desenvolvido como exemplo didático para demonstração de conceitos de POO em Java
-
-Copy
 
 Este README fornece:
 - Visão geral do sistema
